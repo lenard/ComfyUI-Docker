@@ -24,7 +24,9 @@ echo "########################################"
 
 set +e
 cd /root
-git clone https://github.com/comfyanonymous/ComfyUI.git || git -C "ComfyUI" pull --ff-only
+git clone https://github.com/comfyanonymous/ComfyUI.git temp
+# ComfyUI dir already exists... so we want to try and turn it into a git repo
+mv ./temp/.git /root/ComfyUI/.git
 cd /root/ComfyUI
 # Using stable version (has a release tag)
 git reset --hard "$(git tag | grep -e '^v' | sort -V | tail -1)"
