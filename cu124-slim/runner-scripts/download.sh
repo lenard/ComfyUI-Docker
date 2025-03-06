@@ -63,6 +63,8 @@ clone_or_pull https://github.com/jags111/efficiency-nodes-comfyui && cd efficien
 clone_or_pull https://github.com/cubiq/ComfyUI_IPAdapter_plus && cd ComfyUI_IPAdapter_plus && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
 clone_or_pull https://github.com/kijai/ComfyUI-Florence2 && cd ComfyUI-Florence2 && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
 clone_or_pull https://github.com/yolain/ComfyUI-Easy-Use && cd ComfyUI-Easy-Use && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
+clone_or_pull https://github.com/cubiq/ComfyUI_essentials && cd ComfyUI_essentials && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
+clone_or_pull https://github.com/Gourieff/ComfyUI-ReActor && cd ComfyUI-ReActor && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
 
 # Finish
 touch /root/.download-complete
