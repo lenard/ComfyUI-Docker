@@ -72,7 +72,7 @@ https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors  
   dir=loras
   out=ip-adapter-faceid_sdxl_lora.safetensors
-https://civitai.com/api/download/models/532451?type=Model&format=SafeTensor  
+https://huggingface.co/AiWise/RealisticPortrait-MidjourneyMimic-SDXL-LoRA-v1-RVXLv4-Baked-VAE/raw/main/lora_style_v1_RealisticPortrait-MidjourneyMimic-SDXL(RVXLv4-Baked-VAE).safetensors
   dir=loras
   out=style_lora_realis.safetensors
 
