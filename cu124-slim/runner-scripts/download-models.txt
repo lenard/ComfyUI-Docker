@@ -62,7 +62,7 @@ https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-port
   dir=ipadapter
   out=ip-adapter-faceid-portrait_sdxl.bin
 
-https://huggingface.co/misri/juggernautXL_juggXIByRundiffusion/raw/main/juggernautXL_juggXIByRundiffusion.safetensors
+https://huggingface.co/misri/juggernautXL_juggXIByRundiffusion/resolve/main/juggernautXL_juggXIByRundiffusion.safetensors?download=true
   dir=checkpoints
   out=juggernautXL_juggXIByRundiffusion.safetensors
 
@@ -72,10 +72,10 @@ https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plus
 https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors  
   dir=loras
   out=ip-adapter-faceid_sdxl_lora.safetensors
-https://huggingface.co/AiWise/RealisticPortrait-MidjourneyMimic-SDXL-LoRA-v1-RVXLv4-Baked-VAE/raw/main/lora_style_v1_RealisticPortrait-MidjourneyMimic-SDXL(RVXLv4-Baked-VAE).safetensors
+https://huggingface.co/AiWise/RealisticPortrait-MidjourneyMimic-SDXL-LoRA-v1-RVXLv4-Baked-VAE/resolve/main/lora_style_v1_RealisticPortrait-MidjourneyMimic-SDXL(RVXLv4-Baked-VAE).safetensors?download=true
   dir=loras
   out=style_lora_realis.safetensors
 
-https://huggingface.co/Devia/G/raw/main/inswapper_128.onnx
+https://huggingface.co/Devia/G/resolve/main/inswapper_128.onnx?download=true
   dir=insightface
   out=inswapper_128.onnx
