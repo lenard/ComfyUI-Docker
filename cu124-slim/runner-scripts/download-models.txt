@@ -12,3 +12,44 @@ https://raw.githubusercontent.com/madebyollin/taesd/main/taesd3_decoder.pth
 https://raw.githubusercontent.com/madebyollin/taesd/main/taef1_decoder.pth
   dir=vae_approx
   out=taef1_decoder.pth
+
+
+# https://github.com/cubiq/ComfyUI_IPAdapter_plus
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/image_encoder/model.safetensors 
+  dir=clip_vision
+  out=CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/image_encoder/model.safetensors  
+  dir=clip_vision
+  out=CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors
+
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15.safetensors
+  dir=ipadapter
+  out=ip-adapter_sd15.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_light_v11.bin
+  dir=ipadapter
+  out=ip-adapter_sd15_light_v11.bin
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus_sd15.safetensors
+  dir=ipadapter
+  out=ip-adapter-plus_sd15.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-plus-face_sd15.safetensors
+  dir=ipadapter
+  out=ip-adapter-plus-face_sd15.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter-full-face_sd15.safetensors
+  dir=ipadapter
+  out=ip-adapter-full-face_sd15.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/models/ip-adapter_sd15_vit-G.safetensors
+  dir=ipadapter
+  out=ip-adapter_sd15_vit-G.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl_vit-h.safetensors
+  dir=ipadapter
+  out=ip-adapter_sdxl_vit-h.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus_sdxl_vit-h.safetensors
+  dir=ipadapter
+  out=ip-adapter-plus_sdxl_vit-h.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-face_sdxl_vit-h.safetensors
+  dir=ipadapter
+  out=ip-adapter-plus-face_sdxl_vit-h.safetensors
+https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors
+  dir=ipadapter
+  out=ip-adapter_sdxl.safetensors
+
