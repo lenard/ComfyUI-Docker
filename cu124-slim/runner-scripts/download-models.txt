@@ -52,4 +52,30 @@ https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter-plus-f
 https://huggingface.co/h94/IP-Adapter/resolve/main/sdxl_models/ip-adapter_sdxl.safetensors
   dir=ipadapter
   out=ip-adapter_sdxl.safetensors
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl.bin
+  dir=ipadapter
+  out=ip-adapter-faceid_sdxl.bin
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl.bin
+  dir=ipadapter
+  out=ip-adapter-faceid-plusv2_sdxl.bin
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-portrait_sdxl.bin
+  dir=ipadapter
+  out=ip-adapter-faceid-portrait_sdxl.bin
 
+https://huggingface.co/misri/juggernautXL_juggXIByRundiffusion/raw/main/juggernautXL_juggXIByRundiffusion.safetensors
+  dir=checkpoints
+  out=juggernautXL_juggXIByRundiffusion.safetensors
+
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+  dir=loras
+  out=ip-adapter-faceid-plusv2_sdxl_lora.safetensors
+https://huggingface.co/h94/IP-Adapter-FaceID/resolve/main/ip-adapter-faceid_sdxl_lora.safetensors  
+  dir=loras
+  out=ip-adapter-faceid_sdxl_lora.safetensors
+https://civitai.com/api/download/models/532451?type=Model&format=SafeTensor  
+  dir=loras
+  out=style_lora_realis.safetensors
+
+https://huggingface.co/Devia/G/raw/main/inswapper_128.onnx
+  dir=insightface
+  out=inswapper_128.onnx
