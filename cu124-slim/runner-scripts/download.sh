@@ -35,6 +35,34 @@ set -e
 
 
 echo "########################################"
+echo "[INFO] Downloading Custom Nodes..."
+echo "########################################"
+
+cd /root/ComfyUI/custom_nodes
+clone_or_pull https://github.com/ltdrdata/ComfyUI-Manager.git
+
+# Workspace
+clone_or_pull https://github.com/crystian/ComfyUI-Crystools.git
+clone_or_pull https://github.com/crystian/ComfyUI-Crystools-save.git
+
+# General
+clone_or_pull https://github.com/cubiq/ComfyUI_essentials
+clone_or_pull https://github.com/yolain/ComfyUI-Easy-Use
+clone_or_pull https://github.com/jags111/efficiency-nodes-comfyui
+clone_or_pull https://github.com/kijai/ComfyUI-KJNodes
+clone_or_pull https://github.com/WASasquatch/was-node-suite-comfyui
+
+# Control
+clone_or_pull https://github.com/cubiq/ComfyUI_IPAdapter_plus
+clone_or_pull https://github.com/kijai/ComfyUI-Florence2
+clone_or_pull https://github.com/Gourieff/ComfyUI-ReActor
+clone_or_pull https://github.com/1038lab/ComfyUI-RMBG
+
+# Video
+clone_or_pull https://github.com/melMass/comfy_mtb.git
+
+
+echo "########################################"
 echo "[INFO] Downloading Models..."
 echo "########################################"
 
@@ -47,24 +75,6 @@ aria2c \
   --continue=true \
   --max-connection-per-server=5
 
-
-
-echo "########################################"
-echo "[INFO] Downloading Custom Nodes..."
-echo "########################################"
-
-cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/ltdrdata/ComfyUI-Manager.git && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/WASasquatch/was-node-suite-comfyui && cd was-node-suite-comfyui && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/melMass/comfy_mtb && cd comfy_mtb && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/1038lab/ComfyUI-RMBG && cd ComfyUI-RMBG && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/kijai/ComfyUI-KJNodes && cd ComfyUI-KJNodes && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/jags111/efficiency-nodes-comfyui && cd efficiency-nodes-comfyui && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/cubiq/ComfyUI_IPAdapter_plus && cd ComfyUI_IPAdapter_plus && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/kijai/ComfyUI-Florence2 && cd ComfyUI-Florence2 && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/yolain/ComfyUI-Easy-Use && cd ComfyUI-Easy-Use && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/cubiq/ComfyUI_essentials && cd ComfyUI_essentials && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
-clone_or_pull https://github.com/Gourieff/ComfyUI-ReActor && cd ComfyUI-ReActor && ( pip install -r requirements.txt || true ) && cd /root/ComfyUI/custom_nodes
 
 # Finish
 touch /root/.download-complete
